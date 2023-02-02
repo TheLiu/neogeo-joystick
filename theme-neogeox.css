@@ -1,0 +1,58 @@
+.theme {
+	position:relative;
+	top:0px;
+	left:0px;
+	width:600px;
+	height:400px;
+}
+.theme-button-A.active{
+	fill:#CE0A14 !important;
+	opacity: 1;
+}
+
+.theme-button-B.active{
+	fill:#FFDF56 !important;
+	opacity: 1;
+}
+
+.theme-button-C.active{
+	fill:#00BE74 !important;
+	opacity: 1;
+}
+
+.theme-button-D.active{
+	fill:#0160D4 !important;
+	opacity: 1;
+}
+
+.theme-button.active{
+	fill:white !important;
+	opacity: 1;
+}
+
+.theme-analog-wrapper {
+	position:absolute;
+	top:125px;
+	left:185px;
+	height:40px;
+	width:40px;
+	border-radius:100%;
+}
+
+.theme-analog {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:59px;
+	height:59px;
+	margin-left:-45px;
+	margin-top:-45px;
+	background:#333;
+	border-radius:100%;
+	background: radial-gradient(ellipse at center, #333 0%,#000000 100%);
+}
+
+.theme-analog.active {
+	background:white;
+	background: radial-gradient(ellipse at center, #FFF 0%,#AAA 100%);
+}
